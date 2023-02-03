@@ -2,12 +2,12 @@
   "name": "shopping-cart-enhance-server",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "index.js",
   "engines": {
     "node": "14.x"
   },
   "scripts": {
-    "dev": "nodemon src/index.js"
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
