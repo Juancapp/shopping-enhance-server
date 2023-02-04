@@ -2,7 +2,7 @@
   "name": "shopping-cart-enhance-server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "engines": {
     "node": "18.x"
   },
