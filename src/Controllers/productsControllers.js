@@ -65,7 +65,7 @@ const getProductById = async (req, res) => {
 const getAllProducts = async (req, res) => {
   try {
     const products = await Product.find();
-    if (products && products.length > 0) {
+    if (products) {
       return res.status(200).json({
         message: "Products found successfully",
         data: products,
