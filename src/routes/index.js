@@ -6,7 +6,7 @@ const router = express.Router();
 router
   .get("/", productsControllers.getAllProducts)
   .get("/category/:category", productsControllers.getProductsByCategory)
-  .get("/product/:productId", productsControllers.getProductById)
+  .get("/:productId", productsControllers.getProductById)
   .get("/last-product", productsControllers.getLastProduct)
   .post("/", productsControllers.createProduct);
 
